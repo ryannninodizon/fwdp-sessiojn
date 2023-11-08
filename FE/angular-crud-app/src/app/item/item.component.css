@@ -1,0 +1,37 @@
+.item-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-list {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .item-form {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    margin-right: 0.5rem;
+  }
+  
+  .list-group-item{
+    cursor: pointer;
+  }
